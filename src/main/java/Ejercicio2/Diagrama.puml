@@ -1,0 +1,62 @@
+@startuml
+
+package Ejercicio2 {
+    class Main {
+        - scanner: Scanner
+        - users: Map<String, String>
+        - userStorage: UserStorage
+        - authenticator: Authenticator
+        - dataBaseManager: DataBaseManager
+        - orderManager: OrderManager
+        - paymentProcessor: PaymentProcessor
+        - username: String
+        + main(String[]): void
+    }
+
+    class OrderManager {
+        - orders: List<String>
+        - dataBaseManager: DataBaseManager
+        - authenticator: Authenticator
+        + OrderManager(DataBaseManager, Authenticator)
+        + createOrder(String, String, String, int): void
+        + updateOrder(int, String, String, int): void
+        + deleteOrder(int): void
+        + printAllOrders(): void
+        - isValidOrder(String, String, String, int): boolean
+    }
+
+    class Authenticator {
+        - userStorage: UserStorage
+        + Authenticator(UserStorage)
+        + authenticate(String, String): boolean
+    }
+
+    class HashMapUserStorage {
+        - users: Map<String, String>
+        + HashMapUserStorage(Map<String, String>)
+        + getPassword(String): String
+    }
+
+    interface UserStorage {
+        + getPassword(String): String
+    }
+
+}
+
+Main --> OrderManager
+Main --> Authenticator
+Main --> UserStorage
+Main --> Scanner
+Main --> PaymentProcessor
+OrderManager *-- Authenticator
+OrderManager *-- DataBaseManager
+OrderManager o-- UserStorage
+Authenticator o-- UserStorage
+DataBaseManager <-- OrderManager
+OrderManager --> DataBaseManager
+OrderManager --> Authenticator
+OrderManager --> UserStorage
+Authenticator --> UserStorage
+
+@enduml
+

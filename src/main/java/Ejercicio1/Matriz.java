@@ -7,3 +7,8 @@ public class Matriz {
     public Matriz(int[][] matriz) {
         this.matriz = matriz;
     }
+
+    public int[][] getMatriz() {
+        return matriz;
+    }
+}

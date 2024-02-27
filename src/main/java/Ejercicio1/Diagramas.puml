@@ -1,0 +1,31 @@
+@startuml
+
+class Matriz {
+    - int[][] matriz
+    + Matriz(int[][])
+    + getMatriz(): int[][]
+}
+
+class MatrizPrinter {
+    + imprimir(int[][])
+}
+
+class MatrizTraspuesta {
+    + calcularTranspuesta(int[][]): int[][]
+}
+
+class Menu {
+    - Matriz matriz
+    - MatrizPrinter matrizPrinter
+    - MatrizTraspuesta matrizTraspuesta
+    + Menu(int[][])
+    + mostrarMenu()
+}
+
+Matriz -- MatrizPrinter
+Matriz -- MatrizTraspuesta
+Menu -- Matriz
+Menu -- MatrizPrinter
+Menu -- MatrizTraspuesta
+
+@enduml

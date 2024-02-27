@@ -4,17 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981e9a37-3930-4a5f-9de6-9677aa016353" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio1/Matriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio1/MatrizPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio1/MatrizTraspuesta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio1/Menu.java" afterDir="false" />
+    <list default="true" id="981e9a37-3930-4a5f-9de6-9677aa016353" name="Changes" comment="Commit ejercicio 1y2">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio1/Diagramas.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio2/BasicPaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio2/Diagrama.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio2/HashMapUserStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ejercicio2/UserStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio1/MatrizPrinterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio1/MatrizTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio1/MatrizTraspuestaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio1/MenuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio2/AuthenticatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio2/BasicPaymentProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio2/DataBaseManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio2/HashMapUserStorageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio2/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio2/OrderManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio2/PaymentProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ejercicio2/UserStorageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ejercicio1/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ejercicio1/Matriz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ejercicio1/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ejercicio1/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ejercicio2/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ejercicio2/Authenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ejercicio2/Authenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ejercicio2/DataBaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ejercicio2/DataBaseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ejercicio2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ejercicio2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ejercicio2/OrderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ejercicio2/OrderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ejercicio2/PaymentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ejercicio2/PaymentProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,38 +42,70 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="UML Sequence" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2cjT3CdJRI85SXPuRKKguzdTBXy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Matriz.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Matriz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Menu.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Ejercicio2" />
+      <recent name="Ejercicio1" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-20.0.2-azul-20.0.2-4caba194b151-eb49e076" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,11 +114,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708623790391</updated>
-      <workItem from="1708623791487" duration="771000" />
+      <workItem from="1708623791487" duration="1222000" />
+      <workItem from="1708625032143" duration="628000" />
+      <workItem from="1708936033689" duration="1222000" />
+      <workItem from="1708940793647" duration="1855000" />
+      <workItem from="1708948056064" duration="17000" />
+      <workItem from="1708966728291" duration="3515000" />
+      <workItem from="1709051450412" duration="1695000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit ejercicio 1y2">
+      <option name="closed" value="true" />
+      <created>1708624997243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708624997243</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit ejercicio 1y2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit ejercicio 1y2" />
   </component>
 </project>

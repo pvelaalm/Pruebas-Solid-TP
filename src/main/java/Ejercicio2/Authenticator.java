@@ -1,14 +1,16 @@
 package Ejercicio2;
 
-import org.springframework.stereotype.Component;
-
-// Clase para manejar la autenticación de usuarios
-@Component
 public class Authenticator {
-    // Método para autenticar un usuario
+    private final UserStorage userStorage;
+
+    public Authenticator(UserStorage userStorage) {
+        this.userStorage = userStorage;
+    }
+
+    // Método para verificar si un usuario y contraseña son válidos
     public boolean authenticate(String username, String password) {
-        // Implementación para autenticar un usuario
-        return false; // Retorno temporal, debería devolver true si la autenticación es exitosa
+        String storedPassword = userStorage.getPassword(username);
+        return storedPassword != null && storedPassword.equals(password);
     }
 }
 
