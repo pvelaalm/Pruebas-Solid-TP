@@ -1,5 +1,5 @@
 # Prueba SOLID-TP
-[Link a mi repositorio de GitHub](https://github.com/pvelaalm/Pruebas-Solid-TP)
+[Link a mi repositorio de GitHub](https://github.com/pvelaalm/EjercicioPractico1-TP)
 ## Ejercicio 1:
 
 
